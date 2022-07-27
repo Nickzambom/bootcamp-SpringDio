@@ -8,10 +8,6 @@ public class Curso extends Conteudo {
 
 	}
 
-	public Curso(String titulo, String descricao, Integer cargaHoraria) {
-		this.cargaHoraria = cargaHoraria;
-	}
-
 	public Integer getCargaHoraria() {
 		return cargaHoraria;
 	}

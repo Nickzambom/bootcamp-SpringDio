@@ -10,10 +10,6 @@ public class Mentoria extends Conteudo {
 
 	}
 
-	public Mentoria(String titulo, String descricao, LocalDate data) {
-		this.data = data;
-	}
-
 	public LocalDate getData() {
 		return data;
 	}
